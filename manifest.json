@@ -1,0 +1,13 @@
+{
+  "name": "Boring Youtube",
+  "description": "Boring Youtube.",
+  "version": "1.0",
+  "icons": { "16": "boring16.png", "48": "boring48.png", "128": "boring128.png" },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content-script.js"]
+    }
+  ],
+  "manifest_version": 2
+}
